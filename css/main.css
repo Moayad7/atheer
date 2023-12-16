@@ -227,3 +227,7 @@
     transition: all .8s ease;
   }
 
+
+  .slide[data-active]{
+    opacity: 1;
+  }
