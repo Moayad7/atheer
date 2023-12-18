@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- google icons -->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="bg-gray-100">
+
+    <header class="w-full z-[999] overflow-hidden" id="fixed-navbar">
+
+        <div class="shadow text-center flex justify-center pt-2 pb-1  text-xl font-bold">
+            <a class="text-teal-50  py-1 relative" href="./index.html">
+                <img class="w-20" src="assets/logo/logo-01.svg" alt="logo">
+           
+            </a>
+        </div>
+        <nav class="w-full z-[999] flex items-center navbar px-4 lg:px-52 fixed-navbar"
+            id="navbar">
+            <div class=" px-4 sm:px-6 lg:px-8 w-full">
+                <div class="lg:py-4 flex justify-center lg:justify-between items-center w-full">
+                    <div id="navbar-btn" class="text-3xl absolute left-8 top-5 cursor-pointer lg:hidden ">
+                        <span id="navbar-btn-icon" class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </div>
+
+                    <div class="flex gap-4 mx-auto">
+
+                        <ul class=" text-gry-800 lg:text-teal-600 
+                        flex flex-col lg:flex-row items-center lg:pb-0 pb-18 absolute lg:static  lg:z-auto z-[-1] w-full lg:w-auto lg:p-0 p-16 transition-all duration-500 ease-out top-[-1920px] right-0 lg:h-auto gap-8"
+                            id="navbar-list">
+                            <div>
+                                <img id="navbarLogo" class="blocked  lg:hidden w-28 p-2" src="./assets/logo/logo-01.svg"
+                                    alt="">
+                            </div>
+                            <div class="text-gray-800 blocked  lg:hidden flex justify-between items-center z-9999">
+                                <span id="navbar-btn-close" class="cursor-pointer material-symbols-outlined">
+                                    close
+                                </span>
+                            </div>
+                            <a href="./index.html"
+                                class="text-gray-800 hover:text-teal-600 duration-300 border-b-2 border-transparent hover:border-teal-600 "
+                                id="">الرئيسية</a>
+                            <a href="./about.html"
+                                class="text-gray-800 hover:text-teal-600 duration-300 border-b-2 border-transparent hover:border-teal-600 "
+                                id="">نبذة عنا</a>
+
+                            <a href="./services.html"
+                                class="text-gray-800 hover:text-teal-600 duration-300 border-b-2 border-transparent hover:border-teal-600 "
+                                id="">الخدمات</a>
+                            <a href="./team.html"
+                                class="text-gray-800 hover:text-teal-600 duration-300 border-b-2 border-transparent hover:border-teal-600 "
+                                id="">المعرض</a>
+                            <a href="./contact.html"
+                                class="text-gray-800 hover:text-teal-600 duration-300 border-b-2 border-transparent hover:border-teal-600 "
+                                id="">التواصل</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        
+    </header>
+    <section class="bg-[url('./assets/hero.jpg')] bg-cover bg-center  ">
+        <div class=" bg-teal-900/80 px-4 lg:px-52 ">
+          
+        <div class="grid py-8 lg:py-28">
+          <div>
+            <div class=" z-[1] text-center grid place-items-center text-start h-full w-full">
+              <div class="grid gap-2 py-8 relative text-center justify-center w-full">
+                <div class=" absolute w-full h-full z-[2]">
+                  <div class="stars-1">
+                      <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                    </div>
+                    <div class="stars-2">
+                      <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                    </div>
+                    <div class="stars-3">
+                      <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                    </div>
+                    <div class="stars-4">
+                      <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                    </div>
+                    <div class="stars-5">
+                      <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                    </div>
+                    <div class="stars-6">
+                      <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                    </div>
+                  </div>
+                  <h1 class="font-bold text-xl lg:text-5xl text-teal-50 w-full">مؤسسة أثير المساء</h1>
+                  <!-- <p class="lg:text-xl text-teal-400">للتصميم الداخلي والديكور وتنفيذ أعمال الديكورات المنزلي والمكتبي</p> -->
+              </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+     <!-- about -->
+
+    <section class="py-8">
+      
+      <div>
+       
+        <div class="px-4 py-8 lg:px-52">
+
+        
+
+          <div class="grid lg:grid-cols-2 ">
+            
+            <div class="flex flex-col justify-center py-8 lg:px-8">
+              <p class="text-lg lg:text-2xl text-gray-800 pb-4">للتصميم الداخلي والديكور وتنفيذ أعمال الديكورات المنزلي والمكتبي ونقدم  مجموعة متنوعة من الديكورات الفاخرة التي تضفي لمسة من الفخامة والجمال على المساحات المفتوحة والمغلقة.</p>
+              <div class="w-10 border-2 border-teal-600"></div>
+
+              <h1 class="text-2xl md:text-5xl xl:text-9xl text-teal-600">
+                <div class=" absolute w-60 lg:w-96 h-full left-0">
+                  <div class="stars-1"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil1"></path></g></svg></div><div class="stars-2"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil1"></path></g></svg></div><div class="stars-3"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil1"></path></g></svg></div><div class="stars-4"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil1"></path></g></svg></div><div class="stars-5"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil1"></path></g></svg></div><div class="stars-6"><svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil1"></path></g></svg></div>
+                </div>
+               تصاميمنا
+              </h1>
+              <p class="text-lg lg:text-2xl text-gray-800">تشمل خياراتنا الديكورات الخشبية والباركية الأنيقة، التي تضيف دفئًا وطابعًا طبيعيًا للأماكن</p>
+            </div>
+            <div class="">
+                <div class="relative h-80 sm:h-96 lg:h-screen flex flex-col justify-center items-center">
+                  <img class="w-32 sm:w-52 lg:w-80 absolute translate-x-10 xl:translate-x-20 shadow" src="assets/gallery/IMG-20231215-WA0006.jpg" alt="">
+                  <img class="w-32 sm:w-52 lg:w-80 absolute translate-x-[-50px] md:translate-x-[-150px]  shadow-xl" src="assets/gallery/IMG-20231215-WA0013.jpg" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+       
+    </section>
+ 
+    
+
+
+
+    <footer>
+      <div class="bg-[url('./assets/hero.jpg')] bg-cover bg-center ">
+        <div class="overflow-hidden">
+          <div class="bg-teal-900/80 px-4 grid pt-8 w-screen relative ">
+            <div class=" absolute z-[99] w-full h-full ">
+              <div class="stars-1">
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                </div>
+                <div class="stars-2">
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                </div>
+                <div class="stars-3">
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                </div>
+                <div class="stars-4">
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                </div>
+                <div class="stars-5">
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                </div>
+                <div class="stars-6">
+                  <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
+                </div>
+              </div>
+
+          <div class="grid lg:grid-cols-2 gap-8 z-[9999]">
+            <div class="grid place-items-center">
+              <img class="w-60" src="assets/logo/logo-02.svg" alt="logo">
+            </div>
+            <div class=" lg:border-r-2 lg:border-teal-600 ps-4 py-8 text-center space-y-2 lg:text-start">
+
+              <div>
+                <div>
+                  <h1 class="font-bold text-teal-200">
+                    روابط سريعة
+                  </h1>
+                </div>
+                <div>
+                  <ul class="text-teal-50 py-2 lg:flex gap-4">
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        نبذة عنا
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        الخدمات
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        معرض الأعمال
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        تواصل معنا
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+                <!-- <hr> -->
+              
+              <div>
+                <div>
+                  <h1 class="font-bold text-teal-200">
+                    تابعونا
+                  </h1>
+                </div>
+                <div>
+                  <ul class="text-teal-50 py-2 flex justify-center lg:justify-start gap-4">
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        <img class="w-6" src="assets/socialMedia/facebook-01.svg" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        <img class="w-6" src="assets/socialMedia/instagram-01.svg" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        <img class="w-6" src="assets/socialMedia/linkedin-01.svg" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        <img class="w-6" src="assets/socialMedia/twitter-01.svg" alt="">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-teal-200 duration-300">
+                        <img class="w-6" src="assets/socialMedia/youtube-01.svg" alt="">
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+
+              <div class="text-xs flex gap-2 items-center justify-center lg:justify-start  text-[#fff] pt-4">          
+                <p>2023 جميع الحقوق محفوظة لمؤسسة  <a href="index.html" class="uppercase">أثير المساء</a> </p>
+                <span class="text-xs material-symbols-outlined text-[#fff]">
+                    copyright
+                    </span> 
+                  </div>
+                <p class="text-xs text-[#fff]">تمت برمجة الموقع عن طريق <a href="https://www.linkedin.com/in/ahmad-zakaria-hanifa-58094522a/" target="_blank" class="uppercase font-bold">Ahmad Team </a> </p>
+                
+
+            </div>
+            <div>
+
+            </div>
+          </div>
+
+          <div class="z-[9999] py-2 grid gap-4  text-center text-xs justify-center items-center">
+                
+        </div>
+
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+
+
+
+
+
+
+
+
+
+<script src="js/tailwind.js"></script>
+<script src="js/main.js" defer></script>
+</html>
